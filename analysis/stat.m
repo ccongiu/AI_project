@@ -1,6 +1,5 @@
 function [sol] = stat(tbl)
     sol = table;
-    %sol.Dest = tbl(1,1);
     
     sol.minD = min(tbl.depth);
     sol.maxD = max(tbl.depth);
